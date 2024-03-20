@@ -1,13 +1,20 @@
-# Sample Hardhat Project
+# DAPP-FEEDBACK
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project demonstrates a basic user feedback on a DApp built with html, js and solidity
 
-Try running some of the following tasks:
+```on the command prompt
+npm install --save=dev hardhat@latest: #used to initially install npm packages
+npx hardhat: applied to update the hardhat package and create a project into our file directory
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+*Methods Used*
+Index.html
+script.js
+hardhat.config
+Lock.sol
+deploy.js
+
+The smart contract was written in solidity which was edited from the contract folder
+
+The javascript interactivity was carried out via "script.js", and "deploy.js"
+
+Hardhat.config bears the QuickNode endpoint URL and MetaMast Private Key
